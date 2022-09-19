@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(243, 243, 243);
+    height: 740px;
+
+    
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+.second{
+    background-color: rgb(234, 91,12);
+}
+.third{
+    background-color: rgb(234, 91,12);
+
+}
+.fourth{
+    background-color: rgb(234, 91,12);
+
+}
+.first{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 80px;
+
+}
+button i.kk{
+    margin: 12px;
+}
+.first img{
+    margin-left: 100px;
+}
+button{
+    background-color: rgb(250,100,0);
+    width: 170px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    opacity: 10px;
+}
+.lifter
+{
+    color:rgb(234, 91,12);
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight:bold;
+    margin: -5px;
+}
+.all .fourth{
+    margin-right: 60px;
+}
+.all .second
+{
+    margin-left: 50px;
+}
+.loner{
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight:bold;
+    color: rgb(36, 29, 29);
+    margin: 5px;
+
+}
+.loner:hover{
+    color: rgb(234, 91,12);
+}
+.green{
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight:bold;
+    color:black ;
+    margin: 10px;
+}
+.green:hover{
+    color: rgb(234, 91,12);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.ico button i.tt{
+    font-size:20px;
+    border-radius: 90px;
+ }
+ .ico button
+ {
+    width: 30px;
+    margin: 7px;
+    border-radius: 90px;
+    height: 30px;
+    
+ }
+.ico
+{
+    border: 1px solid white;
+    width: 45px;
+    height: 190px;
+    border-radius: 20px;
+    background-color: transparent;
+    position: absolute;
+    left: 1300px;
+    top: 300px;
+    position: fixed;
+    border: none;
+}
+.wasp{
+    border: 1px solid black;
+    width: 160px;
+    height: 25px;
+    background-color: rgb(249, 114,24);
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    color: white;
+    border: none;
+    position: relative;
+    left: 1150px;
+    bottom: 20px;
+    position: fixed;
+
+}
+.beat p
+{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+}

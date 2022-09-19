@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.dd
+{
+    position: absolute;
+    left: 0;
+    padding-left: 30px;
+}
+/* nav
+{
+    background-color: red;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    list-style: none;
+    padding:0px 20px 0px 20px;
+    height: 60px;
+    align-items: center;
+
+}
+.january
+{
+    width: 25%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.february
+{
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+.march
+{
+    width: 25%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+.january input
+{
+    width: 170px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: rgb(140, 170, 173);
+    border: none;
+    padding: 0px 0px 0px 40px;
+}
+.dd
+{
+    position: absolute;
+    padding: 0px 0px 0px 15px;
+    top:35%;
+}
+nav li img
+{
+    border-radius: 80px;
+    text-align: center;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 23%;
+    padding-top:70px;
+    height: 330px;
+    text-align:left;
+    border-radius:30px;
+    left: 0px;
+    top:0px;
+}
+.january:focus-within .dropdown-content
+{
+    display: block;
+}
+.july input
+{
+    width: 210px;
+    height: 35px;
+    border-radius: 25px;
+    padding-left: 10px;
+    background-color: powderblue;
+    border: none;
+}
+.july
+{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    padding-left: 50px;
+    align-items: center;
+
+}
+.nm
+{
+    position: absolute;
+    padding: 0px 0px 0px 20px;
+    align-items: center;
+} */
+    
