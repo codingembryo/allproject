@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+        nav, ul, li{
+            display: flex;
+        }
+        ul, li{
+            margin-left: 70px;
+            align-items: center;
+            font-weight: 700;
+        }
+        nav{
+            margin-left: 30px;
+            /* background-color: lightcoral; */
+        }
+        section{
+           background-color: #ebf2f2;
+           height: 300px;
+           text-align: center;
+           padding-top: 140px;
+           
+        }
+        h1{
+            font-weight: 1200;
+            font-size: 50px;
+        }
+    
+        button{
+            border: 2px solid black;
+            width: 150px;
+            height: 50px;
+            margin: 0 0 0 5px;
+            font-weight: 700;
+            z-index: 1;
+            background: transparent;
+            position: relative;
+        }
+        button:hover{
+            color: white;
+        }
+        button::after{
+            content:"";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: black;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            transition: .3s;
+        }
+        button:hover::after{
+            width: 100%;
+
+        }
+        .last button{
+            width: 80px;
+            height: 25px;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            margin: 15px;
+
+        }
+        .last{
+            margin: 0 10px 0 0;
+            color: blue;
+        }
+        .last{
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .last a{
+            text-decoration: none;
+            border-bottom:0;
+        }
+        /* a:hover{
+            color: blue;
+            border-bottom: 2px solid blue;
+        } */
+        /* .last a:hover{
+            color: red;
+        } */
+
+        a
+        {
+            border: 2px solid white;
+            width: 150px;
+            height: 50px;
+            margin: 0 0 0 5px;
+            font-weight: 700;
+            z-index: 1;
+            background: transparent;
+            position: relative;
+        }
+        a::after{
+            content:"";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: transparent;
+            border-bottom: 2px solid blue;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            transition: .2s;
+        }
+        a:hover::after
+        {
+            width: 100%;
+
+        }
+        /* button{
+            animation-name: button;
+            position: relative;
+            animation-iteration-count: 1;
+            animation-timing-function: slide;
+            animation-duration: 3s;
+            transition: 3s;
+        }
+        @keyframes button {
+            from{
+                left: 100%;
+            }
+            to{
+                left: 0;
+            }
+        } */
+    </style>
+    <title>Document</title>
+    
+</head>
+<body>
+    <main>
+        <nav>
+            <img src="./spp.jpg" alt="">
+            <ul>
+                <li>Why Spring</li>
+                <li>Learn</li>
+                <li>Projects</li>
+                <li>Training</li>
+                <li>Support</li>
+                <li>Community</li>
+            </ul>
+        </nav>
+        <div>
+            <section>
+                <h1>Spring makes Java<br> productive.</h1><br><br>
+                <button>WHY SPRING</button>
+                <button>QUICK START</button>
+            </section>
+        </div>
+        <div class="last">
+            <button>NEWS</button>
+            <a href="">Spring Cloud Gateway - commercial updates </a>&#8739
+            <a href="">Spring Framework CVE-2022-22965</a>
+
+        </div>
+    </main>
+</body>
+</html>

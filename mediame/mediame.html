@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        li{
+            display: inline-block;
+            margin-right: 25px;
+            font-size: 20px;
+            padding: 20px 0px;
+        }
+        .bolt button{
+            background-color: transparent;
+            border: 2px solid #333;
+            padding: 10px 20px;
+            font-size: 17px;
+            font-weight: 550;
+        }
+        .bolt button:nth-child(2){
+            background-color: lightgreen;
+            border: none;
+        }
+        section{
+            background-color: aqua;
+            display: flex;
+        }
+        .manage{
+            display: flex;
+        }
+        .manage img{
+            width: 100%;
+        }
+        .manage div:nth-child(2){
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="#">
+            <img src="./stuimg.png" alt=""></a>
+            <ul>
+                <li>Courses</li>
+                <li>For Employers</li>
+                <li>For Talents</li>
+            </ul>
+            <div class="bolt">
+                <button>Login</button>
+                <button>Take a Course</button>
+            </div>
+        </nav>
+        <section>
+            <div class="texter">
+             <button><a href="#">50% Scholarship for Women</button></a>
+            <h1>Kickstart your career in tech today</h1>
+            <p>Stutern is a skills development and job placement platform that trains and connects young African talents with long-term employment.</p>
+            </div>
+            <div class="manage">
+                <div><img src="./women1.png" alt=""></div>
+                <div><img src="./women2.png" alt=""></div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
