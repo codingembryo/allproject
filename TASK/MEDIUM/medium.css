@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.background{
+    background-color: rgb(255, 192, 23);
+    height: 75px;
+
+
+}
+.background2{
+    background-color:rgb(255, 192, 23);
+    height: 450px;
+    border: 1px solid black; 
+}
+
+.list{
+    font-size:14px ;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.page2{
+    padding-top: 90px;
+    margin-left: 110px;
+}
+.page2 h2{
+    font-size: 106px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: start;
+    text-indent: 0px;
+    text-decoration: none solid rgb(8,  8, 8)
+}
+.page2 p{
+    font-size:30px ;
+}
+.page2 button{
+    background-color: rgb(8,  8, 8);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bmw{
+    background-color: rgb(8,  8, 8);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+
+}
+.place{
+    width: 40%;
+    background-color: pink;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}

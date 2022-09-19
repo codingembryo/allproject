@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+}
+.background{
+background-image: url(./ngy.jpg);
+height: 650px;
+background-blend-mode: darken;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.prep{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.image{
+    display: flex;
+   justify-content: space-between;
+
+}
+.newg{
+    text-align: center;
+    margin-top: 70px;
+
+}
+.newg input{
+    width: 450px;
+    height: 25px;
+    border: none;
+    border-collapse: collapse;
+}
+.newg button{
+    color: white;
+    background-color: rgb(244, 6, 18);
+    border: 2px solid red;
+
+}
+.newg input, .newg button{
+    padding: 20px;
+    margin: -3px;
+    font-size: 20px;
+}
+.pagey{
+    margin-top: 30px;
+
+}
+.pagey button{
+    background-color: red;
+    color: white;
+    height: 20px;
+    border: none;
+    margin-right: 10px;
+}
+ .pagey select{
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    margin-right: 10px;
+
+ }
+ .make{
+    color:white;
+    font-size: 25px;
+ }
+.background2{
+    background-color: black;
+    height: 450px;
+    border-top: 6px solid grey;
+}
+.whitey{
+    display: flex;
+}
+.background3{
+    background-color: black;
+    height: 450px;
+    border-top: 6px solid grey;
+    display: flex;
+}
+h2{
+    color: white;
+    margin-left: 120px;
+    text-align: right;
+    margin-top: 60px;
+}
+h3{
+    color: white;
+    margin-left: 120px;
+    font-size: 150%;
+    text-align: right;
+
+}
+.background4{
+    background-color: black;
+    height: 250px;
+    border-top: 6px solid grey;
+}
+h4{
+    color: white;
+    font-size: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+h5{
+    color: white;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.background5{
+    background-color: black;
+    height: 500px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+}
+   h6{
+    color: white;
+    /* margin-top: 130px; */
+    font-size: 40px;
+   }
+   strong{
+    color: white;
+    font-size: 30px;
+   }
+   .background6{
+    background-color: black;
+    height: 920px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+   }
+   .pagetwo{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+   }
+   .height6{
+    color:white;
+    font-size: 45px;
+   }
+   .height7{
+    color:white;
+    font-size: 30px;
+   }
+   .height{
+    margin-top: 140px;
+
+   }
+   .main{
+    width: 700px;
+    margin: 20px auto;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 550;
+   }
+   .plus{
+    display: flex;
+    justify-content: space-between;
+    width: 817px;
+    background-color: #303030;
+    padding: 0 20px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 550;
+    height: 77px;
+}
+.what-content{
+    background-color: #303030;
+    display: none;
+    width: 817px;
+    height: 310px;
+    font-size: 26px;
+    
+}
+.main:focus-within .what-content{
+    display: block;
+}
+.background7{
+    height: 317px;
+    border-bottom: 1px solid black;
+}
+.newp input{
+    width: 452px;
+    height: 59px;
+    border: none;
+}
+.newp button{
+    color: white;
+    background-color: rgb(244, 6, 18);
+    border: 2px solid red;
+    width: 213px;
+    height: 61px;
+   
+}
+p{
+    text-align: center;
+}
+ .newp input, .newp button{
+   height:62px;
+   margin: -2px;
+
+ }
+ p, a{
+    color: rgb(245, 245, 241);
+ }

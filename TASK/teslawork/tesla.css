@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.background{
+    background-image: url(./teslanew.jpg);
+    background-size: cover;
+    height: 750px;
+    background-position: bottom;
+}
+.content{
+    background-color: white;
+    height: -20px;
+    text-align: center;
+    padding-top: 1px;
+    position: sticky;
+    top: 0;
+    
+
+
+
+
+}
+.content a{
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
+}
+ul li{
+    display: inline-block;
+    margin-top: -20px;
+    padding: 10px;
+    padding-left: 30px;
+}
+.logo2{
+    
+    margin-top: -40px;
+    margin-left: 40px;
+
+}
+ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: cursive;
+    color: black;
+}
+.bring{
+    text-align: center;
+ 
+}
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 30px;
+    position: relative;
+    top: 60px;
+}
+h4{
+    color: black;
+    position: relative;
+    top: 60px;
+}
+
+
+button{
+ margin-top: 450px;
+ border-radius: 50px;
+ border: 1px rgb(58, 61, 65);
+ 
+ 
+}
+.bta{
+    width: 280px;
+    height: 40px;
+    background-color: rgb(58, 61, 65);
+    color: white;
+}
+.btb{
+    width: 280px;
+    height: 40px;
+
+}
+.background2{
+    background-image:url(./secondt.jpg) ;
+    background-size: cover;
+    height: 750px;
+    background-position: bottom;
+    margin-top: 120px;
+}
