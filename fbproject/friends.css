@@ -1,0 +1,351 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* ALL THE NAVBAR STYLING */
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: #888;
+    opacity: 0.6;
+}
+nav ul li input
+   {
+    width: 240px;
+    height: 39px;
+    border-radius: 100px;
+    padding: 0px 0px 0px 45px;
+    margin: 3px 0px 0px 8px;
+    border: 0.2px solid grey;
+    opacity: 1;
+    background: rgb(240, 242, 245);
+    border: none;
+    outline: none;
+   }
+   .aaa
+   {
+    position: absolute;
+    margin:15px 0px 0px 23px;
+    color:#888;
+    opacity: 1;
+   }
+   nav ul {
+    margin: 0;
+    padding: 8px 15px;
+    list-style: none;
+    display: flex;
+    box-shadow: 0 1px 8px rgb(0,0,0,0.3);
+    background-color: white;
+}
+.tona
+  nav ul li {
+      padding: 3px;
+  }
+  nav ul li a{
+      display: inline-block;
+      text-decoration: none;
+  }
+  .ttt
+  {
+    color: black;
+  }
+  .marginright
+  {
+    margin-right: 40px;
+  }
+  .box-shadow
+  {
+    box-shadow: 1px 0px 0px 1px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    color:grey;
+  }
+nav ul li #fb{
+    background: #0B84ED;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+nav ul li#space1{
+    flex: 3;
+}
+nav ul li#space2{
+    flex: 2;
+}
+nav ul li a{
+    height: 40px;
+    /* width: var(--btn-width-100); */
+    width: 60px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 158, 158);
+    transition: .5s;
+
+}
+nav ul li #btn_plus,
+nav ul li #btn_msg,
+nav ul li #btn_bell,
+nav ul li #btn_profile{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #444;
+    background: rgba(0, 0, 0, 0.068);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 0px 0px 1px rgba(0,0,0,0.3);
+    margin-left: 10px;
+}
+.border-radius
+{
+  border-radius: 80px;
+}
+nav ul li:hover #btn_plus,
+nav ul li:hover #btn_msg,
+nav ul li:hover #btn_bell,
+nav ul li:hover #btn_profile
+{
+  background: rgba(0, 0, 0, 0.138);
+}
+
+
+nav ul li:hover #home, 
+nav ul li:hover #group, 
+nav ul li:hover #watch, 
+nav ul li:hover #marketplace,
+nav ul li:hover #gaming
+{
+    background: rgba(0, 0, 0, 0.138);
+    /* color: #444; */
+    border-radius: 5px;
+
+} 
+
+/* .tooltip{
+    position: relative;
+} */
+.tooltip::after{
+    /* content: attr(data-tooltip); */
+    height: 30px;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    position: absolute;
+    bottom: -150%;
+    padding: 5px 12px;
+    line-height: 30px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: .3s;
+    /* pointer-events: none;
+    user-select: none; */
+}
+.tooltip:hover::after{
+    opacity: 1;
+}
+/* ALL THE MAIN BODY CONTENT STYLING */
+.space
+{
+    width: 370px;
+    height: 150px;
+    /* background: yellow; */
+}
+.neptune
+{
+    height: 1800px;
+   background-color: rgb(240, 242, 245);
+    width: 1100px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.warehouse
+{
+    display: flex;
+    padding: 0px 0px 0px 5px;
+    margin: 90px 0px 0px 0px;
+}
+.window
+{
+    width: 340px;
+    height: 52px;
+    /* background: green; */
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.cello
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 10px 0px 15px;
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    height: 52px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.the
+{
+    position: absolute;
+    padding-left: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+.modem
+{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background: rgb(138, 42, 42);
+    text-align: center;
+    margin-left: 220px;
+    border-radius: 50px;
+}
+.cello h4
+{
+    font-size: 20px;
+}
+.window:hover .cello
+{
+    background-color: grey;
+    transition: 1s;
+    border-radius: 10px;
+}
+.roof
+{
+    width: 340px;
+    height: 52px;
+    /* background: green; */
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+    display: flex;
+
+}
+.sheet
+{
+    display: flex;
+    align-items: center;
+    /* padding: 0px 0px 0px 10px; */
+    width: 340px;
+    height: 52px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sheet h4
+{
+    padding-left: 10px;
+}
+.han
+{
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+}
+.wire
+{
+    width: 40px;
+    height: 40px;
+    /* background: red; */
+    border-radius: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+}
+.roof:hover .sheet
+{
+    background: orange;
+    transition: 1s;
+}
+/* FRIENDS PAGE CONTENT STYLING */
+.nitt
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 20px;
+}
+.nitt a
+{
+    text-decoration: none;
+}
+.addcont
+{
+    /* padding:px 0px 0px 20px; */
+    width: 225px;
+    height: 300px;
+    /* background-color: green; */
+    margin: 20px 0px 20px 15px;
+}
+.ytn
+{
+    width: 196px;
+    height: 37px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.bon
+{
+    width: 196px;
+    height: 37px;
+    background-color:gray;
+    border-radius: 10px;
+    border: none;
+    /* margin: 0px 0px 10px 0px; */
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.balance h4
+{
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.balance
+{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.addcont img
+{
+    border-radius: 10px;
+    border-bottom: 2px solid red;
+}
+.fortotal
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}

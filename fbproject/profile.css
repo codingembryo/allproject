@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.level
+{
+background-size: cover;
+align-items: center;
+justify-content: center;
+display: flex;
+padding-top: 70px;
+background-color: black;
+}
+.level img
+{
+    width: 800px;
+    height: 400px;
+}
+.must
+{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 120px;
+    background-color: antiquewhite;
+    margin:20px 0px 0px 450px;
+}
+.must h1
+{
+    text-align: center;
+    color: brown;
+}

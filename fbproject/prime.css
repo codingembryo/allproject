@@ -1,0 +1,1116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body
+{
+    background-color:rgb(240, 242, 245);
+}
+.peg a
+{
+    text-decoration: none;
+    display: flex;
+}
+.tk
+{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 9px;
+    font-weight: lighter;
+}
+.motorola input
+{
+    outline: none;
+    width: 270px;
+    margin-left: 20px;
+    background-color: red;
+    opacity: 0.3;
+    font-weight: bold;
+    font-style: italic;
+}
+/* .bond
+{
+    position: relative;
+    display: flex;
+
+} */
+/* .bond_content
+{
+    position: absolute;
+    display: none;
+    display: flex;
+    left:-5%;
+    top:150%;
+    width: 100%;
+    overflow-y: scroll;
+
+} */
+/* .bond:focus-within .bond_content
+{
+    display: block;
+} */
+.navbar
+{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    background: white;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top:0;
+    /* z-index: -1; */
+}
+.left-col
+{
+    flex: 0.33;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+/* MODAL STYLING AND ITS CONTENT */
+/* .modality
+{
+    width: 1380px;
+    height:640px;
+    background-color: black;
+    position: absolute;
+    top:-90px;
+    left:-420px;
+    display: none;
+    opacity: 0.8; */
+    /* z-index: 1; */
+    /* overflow: hidden;
+
+} */
+/* .fleet:focus-within .modality
+{
+    display: block;
+} */
+/* .mentor
+{
+    width: 650px;
+    height: 350px;
+    align-items: center;
+    background-color:rgb(240, 242,245);
+    margin: 140px 200px 200px 370px;
+    border-radius: 10px;
+}
+.mentor h4
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.mentor input
+{
+    margin: 30px 0px 0px 140px;
+    width: 280px; */
+    /* height: 40px;
+    color: blue;
+    background-color: orange;
+    outline: none;
+    font-size: 25px;
+} */
+.middle-col
+{
+    flex: 0.33;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding
+{
+    padding: 0px 20px 0px 20px;
+}
+.ww
+{
+    font-size: 25px;
+}
+.apple.ww
+{
+    color: red;
+}
+.mm
+{
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    color: black;
+
+}
+.pear
+{
+    width: 40px;
+    height: 40px;
+    background: rgb(180, 176, 176);
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 100px;
+    margin-right: 10px;
+
+}
+.grape
+{
+    width: 40px;
+    height: 40px;
+    background: rgb(180, 176, 176);
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.apple
+{
+    width: 80px;
+    height: 50px;
+    /* background: red; */
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.nokia
+{
+    display: flex;
+}
+/* .apple:hover
+{
+    background: grey;
+    transition: 1s;
+} */
+.lp, .lg, .lm, .ln
+{
+    color: red;
+    font-size: 20px;
+}
+.hh
+{
+    color: blue;
+    font-size: 25px;
+    /* border-bottom: 2px solid blue; */
+    align-items: center;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.ww
+{
+    align-items: center;
+    padding-left: 25px;
+    color: black;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.fontsize
+{
+    font-size: 25px;
+}
+.yo
+{
+    font-size: 25px;
+    color: black;
+    padding: 0px 0px 0px 8px;
+}
+.pop
+{
+    font-size: 25px;
+    color: black;
+    padding: 0px 0px 0px 8px;
+}
+.jog
+{
+    font-size: 25px;
+    color: black;
+    padding: 0px 0px 0px 8px;
+}
+.mango
+{
+    width: 40px;
+    height: 40px;
+    background: rgb(180, 176, 176);
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 70px;
+    margin-left: 20px;
+}
+.pawpaw
+{
+    width: 40px;
+    height: 40px;
+    background: rgb(180, 176, 176);
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 70px;
+    margin-left: 20px;
+}
+.year
+{
+    width: 40px;
+    height: 40px;
+    background: rgb(180, 176, 176);
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 70px;
+}
+.cloud
+{
+    display: flex;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.beta
+{
+    display: flex;
+    margin-left: 20px;
+}
+.right-col
+{
+    flex: 0.33;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+}
+.cradle
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cradle a
+{
+    margin: 0px 3px 0px 3px;
+    text-decoration: none;
+    color: red;
+}
+.kinder
+{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.kinder p
+{
+    text-align: center;
+    margin-left: -10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.prime
+{
+    width: 35px;
+    height: 35px;
+    background: red;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+}
+.primary p
+{
+    text-align: center;
+}
+.ab
+{
+    padding-left: 9px;
+}
+.bb
+{
+    padding-left: 127px;
+}
+.bc
+{
+    padding-left: 150px;
+}
+.bd
+{
+    padding-left: 100px;
+}
+.another-content
+{
+    position: absolute;
+    background-color: rgb(230, 220, 220);
+    width: 350px;
+    height: 450px;
+    right:30px;
+    top: 0px;
+    display: none;
+    border-radius: 20px;
+    color: black;
+}
+.nokia
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px 30px 0px;
+    align-items: center;
+}
+
+.wow
+{
+    font-size: 15px;
+}
+.balance
+{
+    align-items: center;
+}
+.better-content
+{
+    position: absolute;
+    background-color: rgb(230, 220, 220);
+    width: 350px;
+    height: 450px;
+    right:30px;
+    top:0px;
+    display: none;
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px 10px 0px 20px;
+    bottom: 10px;
+    color: black;
+   
+}
+.shine-content
+{
+    position: absolute;
+    background-color: rgb(230, 220, 220);
+    width: 350px;
+    height: 450px;
+    right:30px;
+    top:0px;
+    display: none;
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px 10px 0px 20px;
+}
+.mango:focus-within .better-content
+{
+    display: block;
+}
+.cloud:focus-within .another-content
+{
+    display: block;
+}
+
+.hed
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+}
+.heda
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+}
+.hedy
+{
+    display: flex;
+    margin: 20px 0px 0px 15px;
+    align-items: center;
+}
+
+.cc a,.gg a, .ac a
+{
+    text-decoration: none;
+}
+.gg
+{
+    display: flex;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius:30px;
+    align-items: center;
+    padding-left: 8px;
+    background-color: red;
+}
+.cc
+{
+    display: flex;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    border-radius:30px;
+    align-items: center;
+    padding-left: 8px;
+    
+}
+.cc:hover
+{
+    background-color: red;
+}
+.gold, .silver, .metal, .diamond
+{
+    display: flex;
+    padding: 10px 10px;
+}
+.drop-content
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(230, 220, 220);
+    width: 350px;
+    height: 470px;
+    padding-top:30px;
+    border-radius:9px;
+    right:30px;
+    top:0px;
+    bottom: 40px;
+    /* left: 0px; */
+    /* bottom: 0px; */
+    /* opacity: 1; */
+    color: black;
+    
+}
+.beta:focus-within .drop-content
+{
+    display: block;
+}
+.beta img
+{
+    border-radius: 40px;
+}
+.nursery
+{
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 15px;
+
+}
+.nursery a
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+    
+}
+.topme
+{
+    /* background: red; */
+    width: 310px;
+    height: 100px;
+    margin: 15px 15px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 6px black;
+}
+.primary
+{
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.icon
+{
+    width: 40px;
+    height: 40px;
+
+}
+.fb_logo
+{
+    background: red;
+    margin-left: 20px;
+}
+.account
+{
+    margin-left: 10px;
+    background: blue;
+}
+.notifications
+{
+    background: aqua;
+}
+.messages
+{
+    background: black;
+}
+.plus
+{
+    background: purple;
+}
+.search_icon
+{
+    background: yellow;
+    margin-left: 10px;
+}
+.marginleft
+{
+    margin-left: 10px;
+}
+
+.marginright
+{
+    margin-right: 10px;
+}
+.home
+{
+    background: tomato;
+}
+.media
+{
+    background: brown;
+}
+.marketplace
+{
+  background: orangered;
+}
+.people
+{
+  background:chartreuse
+}
+.paddingleft
+{
+    padding-left: 10px;
+}
+.paddingright
+{
+    padding-right: 15px;
+}
+.position
+{
+    position: absolute;
+
+}
+input
+{
+width: 200px;
+height: 35px;
+border-radius: 80px;
+padding-left: 40px;
+border-color:rgb(240, 242,245) ;
+background-color: rgb(240, 242,245);
+border: none;
+}
+.dd
+{
+    list-style: none;
+    color: red;
+    padding-left: 70px;
+}
+.background
+{
+    background: white;
+}
+.border_radius
+{
+    border-radius: 70px;
+}
+
+/* REELS DROPDOWN AND ITS CONTENT */
+
+
+/* PLUS ICON STYLING AND DROPDOWN ON HOVER */
+.tornado
+{
+  width: 60px;
+  height: 30px;
+  color: white;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  background-color: black;
+  align-items: center;
+  border-radius: 10px;
+  display: none;
+  padding:0px 10px 0px 15px;
+  opacity: 0.8;
+}
+.pawpaw:hover .tornado
+{
+    display:flex;
+    top: 60px;
+    left:80.5%;
+    transition: 3s;
+    align-items: center;
+
+}
+.wave
+{
+  width: 80px;
+  height: 35px;
+  color: white;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  background-color:black;
+  align-items: center;
+  border-radius: 10px;
+  display: none;
+  padding:0px 10px 0px 15px;
+  opacity: 0.8;
+  
+}
+.mango:hover .wave
+{
+    display:flex;
+    top: 60px;
+    left:84%;
+    transition: 3s;
+
+}
+.weather
+{
+  width: 85px;
+  height: 35px;
+  color: white;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  background-color:black;
+  align-items: center;
+  border-radius: 10px;
+  display: none;
+  padding:0px 10px 0px 10px;
+}
+.year:hover .weather
+{
+    display:flex;
+    top: 60px;
+    left:90%;
+    transition: 3s;
+
+}
+.saturn
+{
+  width: 70px;
+  height: 35px;
+  color: white;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  background-color:black;
+  align-items: center;
+  border-radius: 10px;
+  display: none;
+  padding:0px 10px 0px 18px;
+}
+.beta:hover .saturn
+{
+    display:flex;
+    top: 60px;
+    left:88%;
+    transition: 3s;
+}
+.mars
+{
+    width: 50px;
+    height: 35px;
+  color: white;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  background-color:black;
+  align-items: center;
+  border-radius: 10px;
+  display: none;
+  padding:0px 10px 0px 18px;
+  z-index:1;
+}
+.middle-col:hover .mars
+{
+    display:flex;
+    top: 60px;
+    /* left:88%; */
+    transition: 3s;
+}
+
+
+.matter
+{
+width:500px;
+height: 200px;
+overflow-x: scroll;
+overflow-y: hidden;
+display: flex;
+position: absolute;
+/* z-index: -1; */
+top: 30%;
+border-radius: 5px;
+
+	
+}
+.matter img
+{
+	margin:0px 20px 0px 10px;
+    border-radius: 10px;
+}
+	
+/* .profar:focus-within .matter
+{
+	display:block;	
+} */
+.border
+{
+    border: 1px solid red;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 28%;
+    padding-top:70px;
+    height: 320px;
+    text-align:right;
+    border-radius:0px 10px 10px 0px;
+    left: 0px;
+    top:0px;
+}
+.left-col:focus-within .dropdown-content
+{
+    display: block;
+}
+.july input
+{
+    width: 200px;
+    height: 35px;
+    border-radius:80px;
+    padding-left: 50px;
+    background-color: rgb(240, 242,245);
+    border: 1px solid rgb(18, 62, 129);
+    outline: none;
+}
+.july
+{
+    display: flex;
+    position: absolute;
+    top: 11px;
+    padding-left: 57px;
+    align-items: center;
+    margin-left: 20px;
+}
+.press
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    /* background-color:red; */
+    background-color: grey;
+    /* z-index: 1; */
+    margin-top: 10px;
+    
+}
+/* .july:hover.press
+{
+    background-color:red;
+    background-color: lightgrey;
+    border-radius: 15px;
+    transition: 1s;
+} */
+.posh
+{
+    display: flex;
+    margin-bottom: 2px;
+    
+}
+.posh h5
+{
+    padding: 0px 160px 0px 0px;
+    font-size: 19px;
+    color: black;
+}
+.yy
+{
+  display: flex;
+  padding-left: 130px;
+}
+p{
+    padding-left: 20px;
+}
+.nike
+{
+    width: 342px;
+    /* background-color: red; */
+    align-items: center;
+    padding: 15px 0px 20px 20px;
+    height: 490px;
+    position: fixed;
+    top:60px;
+    left:0%;
+    right: 100%;
+}
+.nike
+{
+overflow-y:hidden;
+/* position: sticky; */
+}
+.nike:hover
+{
+    overflow-y: scroll;
+    z-index: -1;
+}
+.adidas
+{
+    width: 776px;
+    /* background-color: green; */
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    right: 70%;
+    margin-top: 20px;
+    z-index: -1;
+    
+}
+.callaway
+{
+    width: 250px;
+    background-color: transparent;
+    height: 90px;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    z-index: -1;
+    margin-top: 10px 10px;
+}
+.main
+{
+    display: flex;
+    margin-top: 63px;
+}
+.peg
+{
+display: flex;
+align-items: center;
+align-items: center;
+padding: 0px 10px 20px 0px;
+
+}
+.qui
+{
+    font-size: 15px;
+    color: rgb(42, 42, 126);
+    align-items: center;
+    text-align: center;
+}
+.peg p
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.brand
+{
+    border-radius: 30px;
+}
+.golf
+{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    height: 70px;
+    width: 490px;
+    border-radius: 30px;
+    align-items: center;
+}
+.golf p
+{
+    padding:none;
+    font-size: 20px;
+}
+.golf a
+{
+    text-decoration: none;
+}
+.sport
+{
+    width: 498px;
+    height: 292px;
+    background-color: white;
+    border-radius: 15px;
+    align-items:center;
+
+}
+/* BUTTON STYLING AND ITS PROPERTIES */
+.buoy img
+{
+    width: 50px;
+    height: 160px;
+    border-radius: 7px;
+}
+.deepest
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 15px;
+    border:none;
+    cursor: pointer;
+    color: black;
+   
+}
+button
+{
+ height: 40px;
+ width: 80px;
+ border-radius: 10px;
+ font-size: 15px;
+ border:none;
+ cursor: pointer;
+ color: black;
+
+}
+.broad
+{
+ height: 40px;
+ width: 100px;
+ border-radius: 10px;
+}
+.broad:hover
+{
+    background-color: red;
+}
+.troop
+{
+    width: 120px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: red;
+    margin: 10px;
+    text-decoration-color: orange;
+}
+.bending
+{
+    height: 130px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+.checker img
+{
+    border-radius: 100px;
+    margin: 10px 0px 0px 10px;
+}
+
+.fleet button
+{
+    width: 410px;
+    height: 40px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 100px;
+    
+}
+.subfleet
+{
+    display: flex;
+    margin: 12px 0px 0px 0px;
+    justify-content: space-between;
+}
+.fle
+{
+    color: darkgreen;
+    font-size: 15px;
+    padding: 0px 5px 0px 0px;
+}
+.flf
+{
+    color: green;
+    font-size: 15px;
+    padding: 0px 5px 0px 0px;
+}
+.flg
+{
+    color: gold;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 5px 0px 0px;
+}
+.babyfleet
+{
+ height: 40px;
+ width: 140px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ border-radius: 5px;
+}
+.babyfleet:hover
+{
+    background-color: red;
+}
+.cities img
+{
+    border-radius: 20px;
+}
+.subcallaway
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.a
+{
+    text-decoration: none;
+    /* padding-top: 5px;
+    padding-right: 10px; */
+}
+.hhp, .hip, .hjp
+{
+    font-size: 15px;
+    color: red;
+}
+
+.hop
+{
+    padding-left: -10px;
+}
+.soncallaway
+{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+.soncallaway img
+{
+    border-radius: 20px;
+}
+/* .deal
+{
+    width: 1361px;
+    height: 691px;
+    background-color:red;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 0.5;
+    display: none;
+}
+.dealer
+{
+    width: 110px;
+    height: 90x;
+    background-color: green;
+}
+.dealer button:focus-within
+{
+    display: block;
+} */
