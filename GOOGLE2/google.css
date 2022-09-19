@@ -1,0 +1,148 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+body{background-color: rgb(255, 255, 255)
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+li{
+    margin:10px
+}
+.imago img{
+    width: 260px;
+    height: 90px;
+    margin-left: 550px;
+    margin-top: 90px;
+}
+.third
+{
+    width: fit-content;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    margin: auto;
+
+}
+.third:focus-within{
+    border-radius: 20px 20px 0 0;
+}
+.placing
+{
+   height: 30px;
+   position: relative;
+}
+.placing input{
+    width: 525px;
+    height: 43px;
+    border: none;
+    outline: none;
+    margin-left:30px;
+}
+.yy{
+    margin: 15px 0 0 20px;
+}
+.hh{
+    margin: 15px 15px 0 0;
+    
+}
+.account{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: blue;
+    border-radius: 40px;
+    margin-top: 8px;
+    border: none;
+    
+}
+.account:hover{
+    background-color: greenyellow;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    width: 100%;
+    padding-top:5px;
+    /* z-index: 1; */
+    height: auto;
+    text-align:left;
+    border-radius: 0 0 20px 20px;
+}
+.placing:focus-within .dropdown-content{
+    display: block;
+}
+
+.big{
+    width: 100px;
+    text-align: center;
+    height: 80px;
+    padding-top: 25px;
+    margin: 10px;
+}
+
+.big img{
+    width: 30px;
+    border-radius: 20px;
+}
+.pp{
+    padding: 4px 10px;
+    border-radius: 20px;
+    background-color: grey;
+    display: none;
+}
+.big .pp-big{
+    text-align: end;
+    display: none;
+}
+.big:hover .pp-big{
+    display: block;
+}
+.big:hover{
+    background-color: lightgrey;
+}
+.allicons{
+    display: flex;
+    width: 620px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.protwo{
+display: none;
+width: 150px;
+height: 80px;
+background-color: lightgrey;
+border-radius: 8px;
+}
+.trypo:focus-within .protwo{
+    display: block;
+}
+.trypo{
+    position: relative;
+}
+.protwo{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.protwo p{
+    background-color: lightgrey;
+    font-size: 13px;
+    font-weight: 30;
+    margin: 5px;
+
+}
+.pp-big button{
+    border-radius: 20px;
+    border: none;
+}
