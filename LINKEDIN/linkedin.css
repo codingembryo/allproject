@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside
+{
+    width: 229px;
+    height: 382px;
+    border: 1px solid #f3f2ef;
+    border-radius: 8px;
+    background-color: white;
+}
+header{
+    width: 590px;
+    height: 113px;
+    border: 1px solid #f3f2ef;
+    border-radius: 8px;
+    background-color: white;
+}
+nav ul li .real
+{
+    border-radius: 40px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f2ef;
+    padding: 20px 0px 0px 0px;
+}
+.base
+{
+display: flex;
+justify-content: space-between;
+padding: 10px 75px 0px 75px;
+background-color: #f3f2ef;
+}
+.brace
+{
+    width: 227px;
+    height: 309px;
+    border: 1px solid #f3f2ef;
+    border-radius: 8px;
+    background-color: white;
+}
+.light
+{
+    width: 227px;
+    height: 309px;
+    border: 1px solid #f3f2ef;
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+/* nav
+{
+    width: 85%;
+    background-color:white;
+    height: 30px;
+    margin: 0px 0px 0px ;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px 0px 0px 55px;
+}
+nav ul li .better
+{
+    margin: 20px -0px 0px -60px;
+}
+nav ul li p{
+    text-align: center;
+    align-items: center;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul .perfect
+{
+    padding-left: 30px;
+}
+nav ul .tt
+{
+    
+    position: fixed;
+}
+nav ul li input{
+    width: 150px;
+    margin: 0px 0px 0px -60px;
+} */
