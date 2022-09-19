@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+nav
+{
+ height: 50px;
+ background-color: white;
+ width: 100%;
+ justify-content: space-between;
+ margin-top: 5px;
+}
+ul{
+    display: flex;
+    padding: 0px 115px 0px 115px;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+ul li p
+{
+    font-size: 13px;
+
+}
+ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+ul li input{
+    width: 290px;
+    height: 29px;
+    margin-left: -50px;
+}
+ul li .bb
+{
+    margin:10px 0px 0px -28px ;
+    position: absolute;
+    
+}
+ul li .trip
+{
+    border-radius: 15px;
+}
+ul li img{
+    border-radius: 5px;
+}
+.hh
+{
+    font-size: 20px;
+}
+.one
+{
+    background-color:lightslategray;
+    width: 225px;
+    height: 387px;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 242, 239);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(200, 200, 200);
+}
+.one img
+{
+    border-radius: 40px;
+    border: 2px solid white;
+}
+.load
+{
+    height: 47px;
+    background-color: lightslategray;
+
+}
+.bright
+{
+    height: 310px;
+    background-color: white;
+    padding: 40px 0px 0px 0px;
+}
+.two
+{
+    background-color: white;
+    width: 560px;
+    height: 116px;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 242, 239);
+}
+.one a{
+    text-decoration: none;
+    color: black;
+}
+.one p
+{
+   align-items: flex-end;
+}
+.one a:hover{
+    text-decoration: underline;
+}
+.three
+{
+    background-color: white;
+    width: 315px;
+    height: 395px;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 242, 239);
+}
+.lace
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 95px 0px 115px;
+    background-color: rgb(243, 242, 239);
+
+
+}
+.four
+{
+    width: 229px;
+    height: 307px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 242, 239);
+    margin: 10px 0px 0px 0px;
+}
+.five
+{
+    width: 309px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 242, 239);
+    margin: -10px 0px 0px 0px;
+}
+.number
+{
+    background-color: rgb(243, 242, 239);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 95px 0px 115px;
+}
+.bbtwo img{
+    border-radius: 30px;
+}
+.bbtwo input{
+    width: 440px;
+    height: 47px;
+    border-radius: 30px;
+    text-indent: 20px;
+
+}
+.bbtwo{
+    display: flex;
+    padding: 8px 20px 0px 20px;
+    justify-content: space-between;
+}
+
+.brave
+{
+display: flex;
+justify-content: space-between;
+padding: 20px 20px 0px 20px;
+align-items: center;
+}
+.gy{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+.gy p{
+   padding-left: 10px;
+   color: black;
+}
+.gz
+{
+    display: flex;
+    color: green;
+    justify-content: space-between;
+}
+.gz p{
+    padding-left: 10px;
+}
