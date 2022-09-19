@@ -1,0 +1,73 @@
+.family{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+.child{
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    display: flex;
+}
+.grandchild1{
+    border:  1px solid black;
+    height: 50px;
+    width: 25%;
+}
+.grandchild2{
+    border: 1px solid black;
+    height: 50px;
+    width: 50%;
+}
+.grandchild3{
+    border: 1px solid black;
+    height: 50px;
+    width: 25%;
+
+}
+.baby {
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+}
+.child1{
+    border: 1px solid black;
+    width: 500px;
+    height: 75px;
+    display: flex;
+
+}
+.children1{
+    border: 1px solid black;
+    width: 500px;
+    height: 75px;
+
+}
+.children2{
+    border: 1px solid black;
+    width: 500px;
+    height: 75px;
+
+}
+.child2{
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+display: flex;
+}
+.children3{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+
+}
+.children4{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+}
+ .children5{
+    border: 1px solid black;
+    width: 70px;
+    height: 30px; 
+}

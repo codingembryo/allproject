@@ -1,0 +1,36 @@
+h1
+{
+    font-size: 300;
+    color: orange;
+
+}
+body{
+    background-color: black;
+}
+h3{
+    color: aqua;
+    font-style: italic;
+}
+a
+{
+    color: orange;
+}
+h4
+{
+    color: white;
+    font-size: xx-large;
+
+}
+h4:hover{
+    color: red;
+}
+h6{
+    background-color: black;
+    color: orange;
+    padding: 90px;
+    font-size: xx-large;
+}
+h6:hover{
+    color: white;
+    transition: 1s;
+}

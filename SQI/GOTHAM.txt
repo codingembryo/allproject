@@ -1,0 +1,87 @@
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+
+unbabel.com
+
+CLASSWORK
+landwey.ng
+
+=====================
+ASSIGNMENT
+
+stutern.com
+==========================
+try body and background color to see if it will scroll under
+
+==================================
+
+
+DROPDOWN
+To have a perfect drop down
+Position absolute plays a big role on drop down
+display
+pseudo class
+positioning
+
+Absolute does a float on other element.
+Position Absolute is controlled by position relative.
+
+https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php
+=======================================
+GIT
+cd- CHANGE DIRECTORY
+TO NAVIGATE
+cd dir
+TO GO BACK
+cd..
+
+TO CREATE A FOLDER
+mkdir(MAKE DIRECTORY)
+mkdir "the name"
+
+TO DELETE A FOLDER
+rmdir "the name"
+
+TO HIDE A WHOLE FOLDER
+attrib +h "silicon valley"
+
+TO BRING BACK A FOLDER
+attrib -h "silicon valley"
+
+TO DISPLAY LIST OF FOLDERS
+dir
+TO ENTER YOUR FOLDER
+cd Desktop
+
+TO BRING BACK YOUR DELETED VS CODE
+git checkout master
+
+TO DELETE THE VS CODE
+git  checkout copy little code and paste
+
+TO CHECK YOUR FILE STATUS
+git status
+=========================================================
+
+GIT BRANCH
+create a git branch inside your master folder
+git merge can add your new file to your master file.
+
+28TH JULY 2022
+INTRODUCTION TO JAVASCRIPT
+string
+number
+boolean
+object
+
+Variables are used to save the above.
+Data are saved inside variables
+To declare a variables, you say VAR or you say var daniel
+
+
+
+
+
+
+
+
