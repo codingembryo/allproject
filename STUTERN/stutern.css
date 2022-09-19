@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ /* body{
+   background-color: rgb(230, 248, 249);
+ } */
+ .firstone{
+    width: 1360px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    padding-bottom: 5px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    text-decoration: none;
+    position: sticky;
+    list-style: none;
+
+ }
+ nav, li{
+   padding-top: 12px;
+ }
+ nav, img{
+    margin-left: 20px;
+ }
+ .btone{
+    background-color:white;
+    height: 41px;
+    width: 75px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: -20px;
+
+   }
+   .btone:hover{
+    background-color: black
+   }
+   .btone:hover a{
+      color: white;
+   }
+   a{
+      text-decoration: none;
+   }
+ .bttwo{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(26, 200, 187);
+    border-radius: 5px;
+    border: 0px;
+    font-size: 17px;
+ }
+.list1{
+   margin-left: 400px;
+   font-size: 17px;
+}
+.list2{
+   font-size: 17px;
+   margin-left: -8px;
+}
+.list3{
+   font-size: 17px;
+   margin-left: -12px;
+}
+.backgroundtwo{
+   height: 650px;
+   background-color: rgb(230, 248, 249);
+}
+.newbox button{
+   background-color: pink;
+   border-radius: 5px;
+   width: 330px;
+   height: 37px;
+   border: none;
+   font-size: 15px;
+   text-decoration: none;
+
+}
+.newbox .bigbox{
+   background-color: aqua;
+   height: 40px;
+   width: 197px;
+   border: none;
+   font-size: 17px;
+
+}
+h2{
+   font-family: epilogue, sans-serif;
+   font-size: 72px;
+}
+.newbox{
+   padding-top: 90px;
+   margin-left: 145px;
+}
+p{
+   font-size: 20px;
+}
+.image{
+   position: absolute;
+   right: 50px;
+   padding-top: 20px;
+   size: 100px;
+}
+.pl{
+   padding-top: 30px;
+   margin-left: 0px;
+   font-size: 23px;
+}
+.pp{
+   padding-top: 12px;
+   margin-left: -2px;
+   font-size: 23px;
+}
+.py
+{
+   padding-top: 15px;
+   margin-left: -2px;
+   font-size: 23px;
+}
+.bttwo a{
+   text-decoration: none;
+   color:rgb(15, 87, 116)
+}
+.bttwo a:hover{
+   color: rgb(41, 28, 221)
+}
+.newbox .justtwo{
+   padding-bottom: 50px;
+
+}
+.navbar
+{
+   display: none;
+   font-size: 15px;
+   background-color: white;
+   position: absolute;
+   width: 190px;
+   height: 270px;
+   text-decoration: none;
+   margin-left: 15px;
+   
+}
+.naviga:hover .navbar
+{
+   display: block;
+   text-decoration: none;
+   border: 1px grey;
+   border-radius: 7px;
+   margin-left: 5px;
+}
+.navitwo
+{
+   display: none;
+   font-size: 15px;
+   background-color: white;
+   position: absolute;
+   width: 210px;
+   height: 110px;
+
+}
+.popular:hover .navitwo
+{
+   display: block;
+   border: 1px grey;
+   border-radius: 7px;
+}
+.navithree
+{
+   display: none;
+   font-size: 15px;
+   background-color: white;
+   position: absolute;
+   width: 190px;
+   height: 90px;
+   text-decoration: none;
+
+}
+.menace:hover .navithree
+{
+   display: block;
+   text-decoration: none;
+   border: 1px grey;
+   border-radius: 20px;
+}
+a{
+   color: grey;
+   margin-left: 15px;
+}
+section
+{
+   background-color: white;
+   width: 100%;
+   height: 520px;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 90px;
+}
+.stand h1{
+   font-size: 50px;
+}
+.stand h1 span{
+   color: aqua;
+}
+.textme
+{
+   background-color: white;
+   height: 1000px;
+   font-size: 30px;
+   text-align: center;
+}
+.bigone{
+   display: flex;
+   width: 90%;
+   flex-wrap: wrap;
+   padding-left: 170px;
+   height:700px ;
+}
+.bigone img{
+   border-radius:80px;
+   width: 150px;
+   height: 150px;
+   margin: 40px;
+   /* justify-content: space-between; */
+  
+   
+
+}
+.bigone p{
+   font-size: 12px;
+}
+.newbig
+{
+   background-color: rgb(27, 22, 66);
+   height: 500px;
+   
+}
+.newbig h3{
+   text-align: center;
+   font-size: 32px;
+   font-family: epilogue, sans-serif;
+   color: rgb(210, 208, 219);
+   padding-top: 90px;
+}
+.newbig img{
+   background-color: rgb(20, 212, 199);
+   border-radius: 70px;
+}
+.newbig b{
+   color: rgb(20, 212, 199);
+   font-size: 20px;
+
+}
+.newbig p{
+   font-size: 14px;
+    color: rgb(121, 116, 146);
+    letter-spacing: 2px;
+}
+.house{
+   display: flex;
+   padding-left: 500px;
+   padding-top: 50px;
+}
+.better p, b{
+   padding-top: 20px;
+   padding-left: 20px;
+   display:block;
+}
+.aa h2
+{
+font-size: 45px;
+font-family:sans-serif;
+color: rgb(27, 22, 66);
+}
+.aa{
+   padding-top: 70px;
+}
+.aa p
+{
+  color: rgb(27, 22, 66);
+}
+.ab{
+   padding:140px 10px 10px 60px;
+   
+}
+.ab img
+{
+   margin: 10px;
+}
+.boss{
+   background-color: rgb(255, 255, 250);
+   padding-top: 110px;
+   height: 1000px;
+}
+.ac{
+   width:80%;
+   height: 580px;
+   border: 1px solid rgb(27, 211, 198);
+   background-color: rgb(27, 211, 198);
+   margin: 0px 110px 0px 110px;
+   border-radius: 15px;
+}
+.ac h2{
+   font-size: 48px;
+}
+.abg{
+   background-color: rgb(255, 255, 250);
+   height: 620px;
+
+}
+.ac button.white{
+   width: 168px;
+   height: 50px;
+   font-size: 20px;
+   background-color: rgb(255, 255, 250);
+   border: 1px solid rgb(255, 255, 250);
+   border-radius: 5px;
+}
+.ac button.dark{
+   width: 210px;
+   height: 50px;
+   font-size: 20px;
+   background-color: rgb(23, 19, 56);
+   border: 1px solid rgb(23, 19, 56);
+   border-radius: 5px;
+   color: white;
+}
+.lastone
+{
+   height: 460px;
+   background-color: rgb(27, 22, 66);
+   display: block;
+}
+.lastone p{
+   color: white;
+   text-align: left;
+   padding:  160px 0px 0px 30px;
+}
+.lastone img{
+   width: 190px;
+   float: left;
+   padding:50px 0 0 60px;
+}
+.lgn{
+}
