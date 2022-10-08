@@ -1,3 +1,0 @@
-# IPYTHON LECTURE
-# IPYTHON = INTERACTIVE PYTHON
-print("Hello World")
